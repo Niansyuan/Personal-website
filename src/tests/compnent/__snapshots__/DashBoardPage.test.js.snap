@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ExpenseDashBoardPage correctly 1`] = `
+<div>
+  DeshBoard page content down below is the example
+</div>
+`;
