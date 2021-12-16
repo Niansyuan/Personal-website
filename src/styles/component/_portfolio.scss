@@ -1,6 +1,76 @@
 .portfolio-item {
     display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
     padding: $xl-size $l-size;
-    background:$white;
+    background:darken($white,5%);
     margin-bottom: $l-size;
+    border-radius: $s-size;
+    box-shadow: 0 0 20px darken($gray,30%);
+    animation-duration: 2s;
+    animation-name: slidein;
+    transform:scale(1,1);
+    transition: all .5s ease;
+    @media(min-width:$desktop-breakpoint){
+        flex-direction: row;
+        align-items: flex-start;
+    };
+    &:hover {
+        transform:scale(1.05,1.05);
+        background: $white;
+    };
+};
+
+@keyframes slidein {
+    from {
+        margin-top: -10%;
+    };
+    to {
+        margin-top: 0;
+    };
+};
+
+.portfolio-item__pic {
+    img {
+        border: 1px solid $gray;
+        border-radius:$s-size ;
+        max-width: 100%;
+        
+    }
+    @media(min-width:$desktop-breakpoint){
+        img {
+            max-width: 300px;
+        }
+    };
+    &:hover {
+        opacity: 0.8;
+    };
+};
+
+.portfolio-item__text {
+    margin: 0 0 0 0;
+    h1 {
+        font-size: $l-size;
+        font-weight: 700;
+        color: lighten($dark-gray,10%);
+    };
+    h3 {
+        font-size: $l-font-size;
+        font-weight: 700;
+        color: lighten($dark-gray,20%);
+        margin-bottom: $s-size;
+    };
+    ul {
+        margin: 0 0 0 0;
+        font-size: $l-font-size;
+        color: lighten($dark-gray,20%);
+        list-style-type: disc;
+        list-style-position: inside
+    };
+    @media(min-width:$desktop-breakpoint){
+        flex-direction: row;
+        align-items: flex-start;
+        height: 40%;
+        margin: 0 0 0 $l-size;
+    };
 };

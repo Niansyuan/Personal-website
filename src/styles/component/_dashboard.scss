@@ -6,6 +6,7 @@
     padding-top:$xxl-size;
     animation-duration: 2s;
     animation-name: slidein;
+    background: rgba(255, 255, 255, 0.2);
     @media(min-width:$desktop-breakpoint){
         flex-direction: row;
     };
@@ -21,7 +22,7 @@
 };
 
 .dashboard__averta {
-    margin: $l-size $s-size $l-size $s-size;
+    margin: $m-size $s-size $l-size $s-size;
     width: 85%;
     display: grid;
     align-content: center;
