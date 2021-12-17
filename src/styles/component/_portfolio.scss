@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: $xl-size $l-size;
-    background:darken($white,5%);
-    margin-bottom: $l-size;
+    background: rgba(255, 255, 255, 0.5);
+    margin: $l-size 0 $l-size 0;
     border-radius: $s-size;
     box-shadow: 0 0 20px darken($gray,30%);
     animation-duration: 2s;
@@ -49,6 +49,7 @@
 
 .portfolio-item__text {
     margin: 0 0 0 0;
+    text-align: justify;
     h1 {
         font-size: $l-size;
         font-weight: 700;
@@ -62,15 +63,23 @@
     };
     ul {
         margin: 0 0 0 0;
-        font-size: $l-font-size;
-        color: lighten($dark-gray,20%);
+        padding: 0 0 0 $m-size;
+        font-size: $m-font-size;
+        font-weight: 600;
+        color: lighten($dark-gray,10%);
         list-style-type: disc;
-        list-style-position: inside
     };
     @media(min-width:$desktop-breakpoint){
         flex-direction: row;
         align-items: flex-start;
         height: 40%;
-        margin: 0 0 0 $l-size;
+        margin: $xs-size 0 0 $l-size;
     };
+};
+
+.li--none {
+    font-weight: 400;
+    list-style-type:'-'+' ';
+    color: lighten($dark-gray,10%);
+    margin: $xs-size 0 $xs-size 0;
 };

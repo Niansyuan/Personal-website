@@ -6,7 +6,7 @@
     padding-top:$xxl-size;
     animation-duration: 2s;
     animation-name: slidein;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.5);
     @media(min-width:$desktop-breakpoint){
         flex-direction: row;
     };
@@ -30,7 +30,11 @@
     justify-items: center;
     @media(min-width:$desktop-breakpoint){
         width: 100%;
-        filter:blur(1px)
+    };
+    &:hover {
+        img {
+            opacity: 1;
+        };
     };
 };
  
@@ -56,13 +60,6 @@
     };
 };
 
-.dashboard__averta:hover {
-    img {
-            opacity: .9;
-    };
-    filter:blur(0)
-};
-
 .dashboard__averta:hover .dashboard__averta--text {
     opacity: 1;
     animation-duration: 2s;
@@ -81,19 +78,24 @@
 
 .dashboard__directory__list--1 {
     background:#285185;
+    opacity: .7;
     color: $white;
     border: 1px solid $gray;
     border-radius: 50%;
     width:25vw;
     height: 25vw;
-    font-size: $xl-font-size;
+    font-size: $l-font-size;
     text-align: center;
-    padding: $xl-size $s-size $s-size $s-size;
+    writing-mode: vertical-lr;
+    padding: $s-size 30%;
     margin: $m-size $s-size;
     transition: background-color .6s;
     @media(min-width:$desktop-breakpoint){
+        font-size: $xxl-font-size;
+        padding: $xl-size $s-size $s-size $s-size;
         width:150px;
         height: 150px;
+        writing-mode: horizontal-tb;
     };
     &:hover {
         background-color:darken(#285185,20%);
@@ -102,19 +104,24 @@
 
 .dashboard__directory__list--2 {
     background: #d67940;
+    opacity: .7;
     color: $white;
     border: 1px solid $gray;
     border-radius: 50%;
     width:25vw;
     height: 25vw;
-    font-size: $xl-font-size;
+    font-size: $l-font-size;
     text-align: center;
-    padding: $xl-size $s-size $s-size $s-size;
+    writing-mode: vertical-lr;
+    padding: $s-size 30%;
     margin: $m-size $s-size;
     transition: background-color .6s;
     @media(min-width:$desktop-breakpoint){
+        font-size: $xxl-font-size;
+        padding: $xl-size $s-size $s-size $s-size;
         width:150px;
         height: 150px;
+        writing-mode: horizontal-tb;
     };
     &:hover {
         background-color: darken(#d67940,20%);
@@ -123,19 +130,24 @@
 
 .dashboard__directory__list--3 {
     background: #c3a6a0;
+    opacity: .8;
     color: $white;
     border: 1px solid $gray;
     border-radius: 50%;
     width:25vw;
     height: 25vw;
-    font-size: $xl-font-size;
+    font-size: $l-font-size;
     text-align: center;
-    padding: $xl-size $s-size $s-size $s-size;
+    writing-mode: vertical-lr;
+    padding: $s-size 30%;
     margin: $m-size $s-size;
     transition: background-color .6s;
     @media(min-width:$desktop-breakpoint){
+        font-size: $xxl-font-size;
+        padding: $xl-size $s-size $s-size $s-size;
         width:150px;
         height: 150px;
+        writing-mode: horizontal-tb;
     };
     &:hover {
         background-color: darken(#c3a6a0,20%);

@@ -7,7 +7,9 @@ html {
 }
 
 body {
-    background: $gray;
+    background-image:url(/public/image/background-2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
     font-family: $font-chinese;
     font-size:$m-size;
     color: $dark-gray;
