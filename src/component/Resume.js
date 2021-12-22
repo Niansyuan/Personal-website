@@ -14,8 +14,8 @@ const Resume = () => (
         </div>
         <div className="contain-container">
             <div className="resume">
-                <div className="resume__link"><a href="">CakeResume</a></div>
-                <div className="resume__link"><a href="">104履歷</a></div>
+                <div className="resume__link"><a href="https://www.cakeresume.com/mich8588">CakeResume</a></div>
+                <div className="resume__link"><a href="https://pda.104.com.tw/profile/share/jH9gxiMcSLBgKcELc2Ta1nQJ7JkmQEd4">104履歷</a></div>
             </div>
             <div className="resume-container">
                 <iframe

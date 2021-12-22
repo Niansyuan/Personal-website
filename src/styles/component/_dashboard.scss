@@ -33,26 +33,20 @@
     };
 };
 
-//-----------------------還要改dashboard圖片---------------
-.dashboard__averta:hover .dashboard__averta--imageShow {
-    @media(min-width:$desktop-breakpoint){
-        width: 100%;
-        display: none;
-    };
+.dashboard__averta:hover .dashboard__averta--text {
+    animation-duration: 2s;
+    animation-name: rotate;
 };
 
-.dashboard__averta--imageHide {
-    @media(min-width:$desktop-breakpoint){
-        display: none;
+@keyframes rotate {
+    from {
+        transform: rotate(359deg);
+    };
+    to {
+        transform: rotate(0deg);
+        margin-bottom: 50px;
     };
 };
-
-.dashboard__averta:hover .dashboard__averta--imageHide {
-    @media(min-width:$desktop-breakpoint){
-        display: block;
-    };
-};
-//-----------------------還要改dashboard圖片---------------
 
 .dashboard__averta .dashboard__averta--text {
     text-align: center;
