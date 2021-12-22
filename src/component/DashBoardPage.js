@@ -11,7 +11,8 @@ const DashBoardPage = () => (
         <div className='contain-container'>
             <div className='dashboard'>
                 <div className='dashboard__averta'>
-                    <img src="../../image/averta.jpg" width="90%" />
+                    <img src="../../image/averta.jpg" width="90%" className='dashboard__averta--imageShow' />
+                    <img src="../../image/background.jpg" width="513" height="513" className='dashboard__averta--imageHide' />
                     <div className='dashboard__averta--text'>
                         <h3>Hi ! I'm Mich</h3>
                         <p>積極尋找成為前端工程師的機會</p>

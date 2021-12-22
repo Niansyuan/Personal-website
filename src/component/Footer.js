@@ -11,7 +11,7 @@ export const Footer = () => (
                 </div>
                 <div className="footer__item">
                     <h3>Email</h3>
-                    <p><a href="mailto:mich8588@gmail.com">mich8588@gmail.com</a></p>
+                    <p><a href="mailto:niansyuan@gmail.com">niansyuan@gmail.com</a></p>
                 </div>
                 <div className="footer__item">
                     <h3>Follow Me</h3>

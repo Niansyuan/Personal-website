@@ -1,0 +1,39 @@
+.accordion {
+    margin: $m-size 0;
+};
+
+.accordion-button.collapsed {
+    background: rgba($color: #c2b0a0, $alpha: .6);
+    height: $l-size;
+    font-size: $m-size;
+    font-weight: 600;
+    color:lighten($dark-gray,10%);
+    &:hover {
+        background:rgba($color: rgb(197, 154, 123), $alpha: .6);
+    };
+};
+
+.accordion-button:focus {
+    background: rgba($color: #c2b0a0, $alpha: .6);
+    height: $l-size;
+    box-shadow:none;
+    font-size: $m-size;
+};
+
+.accordion-body {
+    background: rgba($color: lighten($shallow-green,40%), $alpha: .6);  
+    border: none;
+    font-size: $m-size;
+    font-weight: 500;
+    color:lighten($dark-gray,20%);
+};
+
+.accordion-button:not(.collapsed) {
+    background: rgba($color: rgb(197, 154, 123), $alpha: .6);
+    height: $l-size;
+    box-shadow:none;
+    color:$dark-gray;
+    font-size: $m-size;
+    font-weight: 600;
+    color:lighten($dark-gray,10%);
+};

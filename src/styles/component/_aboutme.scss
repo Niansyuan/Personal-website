@@ -1,0 +1,19 @@
+.aboutme-text {
+    background: rgba($color: #ffffff, $alpha: .6);
+    margin-top: $l-size;
+    border-radius: $s-size;
+    h3 {
+        font-size: $xl-font-size;
+        font-weight: 700;
+        color: lighten($dark-gray,10%);
+        padding: $s-size $s-size 0 $s-size;
+    };
+    p {
+        font-size: $m-font-size;
+        color: $dark-gray;
+        padding: 0 $s-size;
+    };
+    i {
+        font-weight: 700;
+    };
+};

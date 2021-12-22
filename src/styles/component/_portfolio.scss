@@ -51,14 +51,16 @@
     margin: 0 0 0 0;
     text-align: justify;
     h1 {
+        margin: $s-size 0 $s-size 0;
         font-size: $l-size;
         font-weight: 700;
         color: lighten($dark-gray,10%);
     };
     h3 {
+        margin: 0 0 $l-size 0;
         font-size: $l-font-size;
         font-weight: 700;
-        color: lighten($dark-gray,20%);
+        color: lighten($dark-gray,30%);
         margin-bottom: $s-size;
     };
     ul {
