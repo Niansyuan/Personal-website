@@ -15,8 +15,22 @@ export const Footer = () => (
                 </div>
                 <div className="footer__item">
                     <h3>Follow Me</h3>
-                    <p><a href="https://github.com/Niansyuan"><img className="footer-icon" src="/image/github.svg"></img>GitHub</a></p>
-                    <p><a href="https://www.instagram.com/niansyuan_wang/"><img className="footer-icon" src="/image/ig.svg"></img>Instagram</a></p>
+                    <p>
+                        <a
+                            href="https://github.com/Niansyuan"
+                            target="_blank"
+                        >
+                            <img className="footer-icon" src="/image/github.svg"></img>GitHub
+                        </a>
+                    </p>
+                    <p>
+                        <a
+                            href="https://www.instagram.com/niansyuan_wang/"
+                            target="_blank"
+                        >
+                            <img className="footer-icon" src="/image/ig.svg"></img>Instagram
+                        </a>
+                    </p>
                 </div>
             </div>
         </div>

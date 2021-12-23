@@ -10,7 +10,7 @@ const PortfolioItem = () => (
                     title="open link"
                 >
                     <img
-                        src="./image/portfolio-work-1.jpg"
+                        src="/image/portfolio-work-1.jpg"
                         alt="作品連結"
                     />
                 </a>
@@ -42,7 +42,7 @@ const PortfolioItem = () => (
                     target="_blank"
                     title="open link">
                     <img
-                        src="./image/portfolio-work-2.jpg"
+                        src="/image/portfolio-work-2.jpg"
                         alt="作品連結"
                     />
                 </a>
