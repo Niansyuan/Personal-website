@@ -5,6 +5,7 @@ import NotFoundPage from '../component/NotFoundPage';
 import AboutMePage from '../component/AboutMePage';
 import Portfolio from '../component/Portfolio';
 import Resume from '../component/Resume';
+import DemoPage from '../component/DemoPage';
 import { createBrowserHistory } from 'history';
 
 export const history = createBrowserHistory();
@@ -17,6 +18,7 @@ const AppRouter = () => (
                 <Route path='/AboutMe' component={AboutMePage} />
                 <Route path='/Portfolio' component={Portfolio} />
                 <Route path='/Resume' component={Resume} />
+                <Route path='/DemoPage' component={DemoPage} />
                 <Route component={NotFoundPage} />
             </Switch>
         </div>

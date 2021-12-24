@@ -19,18 +19,23 @@ class Header extends React.Component {
                             </button>
                             <div className="header__dropdown-menu--content">
                                 <Link to='/AboutMe' className='header__dropdown-menu--list'>
-                                    <div className=''>
+                                    <div>
                                         關於我
                                     </div>
                                 </Link>
                                 <Link to='/Portfolio' className='header__dropdown-menu--list'>
-                                    <div className=''>
+                                    <div>
                                         作品集
                                     </div>
                                 </Link>
                                 <Link to='/Resume' className='header__dropdown-menu--list'>
-                                    <div className=''>
+                                    <div>
                                         履歷
+                                    </div>
+                                </Link>
+                                <Link to='/DemoPage' className='header__dropdown-menu--list'>
+                                    <div>
+                                        API串接
                                     </div>
                                 </Link>
                             </div>

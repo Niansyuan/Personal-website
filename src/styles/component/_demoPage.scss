@@ -1,0 +1,20 @@
+.mapAPI {
+    margin:$m-size 0;
+    padding: $s-size;   
+    background: rgba(255, 255, 255, 0.5);
+    p {
+        font-size: $m-font-size;
+        color: $dark-gray;
+        font-weight: 600;
+    };
+    i {
+        font-size: $l-font-size;
+        font-weight: 700;
+        color: darken($shallow-green,10%);
+    }
+};
+
+.marker__text {
+    color:rgb(17, 152, 194);
+    font-weight: 600;
+};
