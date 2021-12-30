@@ -8,7 +8,7 @@ const Resume = () => (
         <div className="page-header">
             <div className="contain-container">
                 <div className="header__contain">
-                    Resume
+                    <h1>Resume</h1>
                 </div>
             </div>
         </div>

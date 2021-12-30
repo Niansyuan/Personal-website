@@ -1,7 +1,9 @@
 .page-header {
     background: rgba(255, 255, 255, 0.4);
-    font-size: $xxl-font-size;
-    font-weight: 700;
     margin-top: $s-size;
     padding-top:$xxl-size;
+    h1 {
+        font-size: $xxl-font-size;
+        font-weight: 700;
+    };
 };

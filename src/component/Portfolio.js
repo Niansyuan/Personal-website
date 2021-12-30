@@ -9,7 +9,7 @@ const Portfolio = () => (
         <div className="page-header">
             <div className="contain-container">
                 <div className="header__contain">
-                    Projects
+                    <h1>Projects</h1>
                 </div>
             </div>
         </div>

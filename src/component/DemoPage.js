@@ -10,16 +10,16 @@ const DemoPage = () => {
             <div className="page-header">
                 <div className="contain-container">
                     <div className="header__contain">
-                        Google Maps API Demo
+                        <h1>Google Maps API Demo</h1>
                     </div>
                 </div>
             </div>
             <div className="contain-container">
                 <div className="mapAPI">
-                    <p>
-                        既然要串接Google Maps API，就必須有主題地點，<br />
-                        決定來介紹在花蓮六年的日子裡，去過的溪~<br />
-                    </p>
+                    <h3>
+                        既然要串接Google Maps API，就必須有主題地點<br />
+                        介紹在花蓮六年的日子裡 ── 去過的那些溪<br />
+                    </h3>
                     <p>
                         <i>米亞丸溪</i><br />
                         是我到花蓮的第一條溪，不過不是特別親人<br />

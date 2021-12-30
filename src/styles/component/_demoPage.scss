@@ -7,6 +7,21 @@
         color: $dark-gray;
         font-weight: 600;
     };
+    h3 {
+        font-size: $xl-font-size;
+        font-weight: 600;
+        color:$shallow-green;
+        animation-duration: 3s;
+        animation-name: showUp;
+    };
+    @keyframes showUp {
+        from {
+            margin-left: 10%
+        };
+        to {
+            margin-left: 0;
+        };
+    };
     i {
         font-size: $l-font-size;
         font-weight: 700;
@@ -17,4 +32,18 @@
 .marker__text {
     color:rgb(17, 152, 194);
     font-weight: 600;
+};
+
+.infoWindow {
+    font-size: $m-font-size;
+    padding: $s-size $s-size;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    a {
+        text-decoration: none;
+        color:$shallow-green;
+    };
+    &:hover {
+        background:  rgba(255, 255, 255, 1);
+    };
 };

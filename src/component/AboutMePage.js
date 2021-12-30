@@ -10,7 +10,7 @@ const AboutMePage = () => (
         <div className="page-header">
             <div className="contain-container">
                 <div className="header__contain">
-                    About me
+                    <h1>About me</h1>
                 </div>
             </div>
         </div>
