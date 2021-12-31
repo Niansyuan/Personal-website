@@ -136,10 +136,10 @@ class SimpleMap extends Component {
 
 SimpleMap.defaultProps = {
     center: {
-        lat: 23.904673,
-        lng: 121.487412
+        lat: 23.978673,
+        lng: 121.497412
     },
-    zoom: 10
+    zoom: 11
 };
 
 export default SimpleMap;

@@ -2,6 +2,7 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const webpack = require('webpack');
+const TerserPlugin = require("terser-webpack-plugin");
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
@@ -44,6 +45,16 @@ module.exports = (env, argv) => {
                     }
                 ],
             }]
+        },
+        optimization: {
+            minimize: true,
+            nodeEnv: "production",
+            minimizer: [new TerserPlugin()],
+        },
+        performance: {
+            hints: false,
+            maxEntrypointSize: 512000,
+            maxAssetSize: 512000
         },
         plugins: [
             new MiniCssExtractPlugin({

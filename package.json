@@ -16,6 +16,7 @@
     "live-server": "^1.2.1",
     "react-test-renderer": "^17.0.2",
     "redux-mock-store": "^1.5.4",
+    "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.0",
     "webpack-dev-server": "^4.3.1"
   },
@@ -47,7 +48,6 @@
     "jest-enzyme": "^7.1.2",
     "jquery": "^3.6.0",
     "mini-css-extract-plugin": "^2.4.4",
-    "moment": "^2.29.1",
     "node-sass": "^6.0.1",
     "numeral": "^2.0.6",
     "raf": "^3.4.1",
@@ -62,6 +62,7 @@
     "redux-thunk": "^2.4.0",
     "sass-loader": "^12.2.0",
     "style-loader": "^3.3.0",
+    "terser-webpack-plugin": "^5.3.0",
     "uuid": "^3.4.0",
     "validator": "^13.6.0",
     "webpack": "^5.58.2"
