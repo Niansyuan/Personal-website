@@ -13,6 +13,11 @@ const PortfolioItem = () => (
                         src="image/project-1.jpg"
                         alt="作品連結"
                     />
+                    <img
+                        src="image/openLink.jpg"
+                        width={30}
+                        className="portfolio-item__pic--icon"
+                    />
                 </a>
             </div>
             <div className="portfolio-item__text">
@@ -42,8 +47,13 @@ const PortfolioItem = () => (
                     target="_blank"
                     title="open link">
                     <img
-                        src="image/project-2.jpg"
+                        src="./image/project-2.jpg"
                         alt="作品連結"
+                    />
+                    <img
+                        src="./image/openLink.jpg"
+                        width={30}
+                        className="portfolio-item__pic--icon"
                     />
                 </a>
             </div>

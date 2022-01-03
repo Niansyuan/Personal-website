@@ -31,6 +31,7 @@
 };
 
 .portfolio-item__pic {
+    position: relative;
     img {
         border: 1px solid $gray;
         border-radius:$s-size ;
@@ -45,6 +46,13 @@
     &:hover {
         opacity: 0.8;
     };
+};
+
+.portfolio-item__pic--icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
 };
 
 .portfolio-item__text {
@@ -76,6 +84,12 @@
         align-items: flex-start;
         height: 40%;
         margin: $xs-size 0 0 $l-size;
+        h1 {
+            margin: 0 0 $s-size 0;
+            font-size: $l-size;
+            font-weight: 700;
+            color: lighten($dark-gray,10%);
+        };
     };
 };
 
