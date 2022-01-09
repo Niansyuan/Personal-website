@@ -24,7 +24,7 @@ const Resume = () => (
                 </div>
                 <div className="resume__link">
                     <a
-                        href="https://pda.104.com.tw/profile/share/jHorPEgvfE4gxvHFHSKk8YQbjImixACJ"
+                        href="https://pda.104.com.tw/profile/share/1YgGN7qCdEwWkCDKMvoFuEV6eJYSvrKj"
                         target="_blank"
                     >
                         104履歷

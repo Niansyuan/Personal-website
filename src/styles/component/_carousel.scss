@@ -2,10 +2,21 @@
     margin: $s-size 0;
     background: rgba($color: #ffffff, $alpha: .6);
     border-radius: $s-size;
+    h3{
+        color:lighten($dark-gray,20%);
+        font-weight: 600;
+        margin-top: $s-size;
+        background:rgba($color: #ffffff, $alpha: .6);
+        border: none;
+        border-radius: 20px;
+        width: auto;
+    };
 };
 
 .w-100 {
     width: 200px !important;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: $l-size;
+    margin-top: $s-size;
 };

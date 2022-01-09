@@ -47,16 +47,16 @@ const AccordionItem2 = () => {
             <Accordion.Item eventKey="0">
                 <Accordion.Header>平常都在幹嘛?</Accordion.Header>
                 <Accordion.Body>
-                    我喜歡打羽球、彈吉他、唱歌、看劇、看股票，生活基本上就是由這些元素構成。<br />
+                    我喜歡打羽球、彈吉他、唱歌、看劇，生活基本上就是由這些元素構成。<br />
                     那開始接觸程式語言後，每天都會花時間練習一下，避免感覺跑掉。<br />
-                    偶爾也會構思繪畫作品，像是下方輪播效果圖也是我自己畫的貼圖。
+                    偶爾也會構思繪畫作品，像是下方輪播效果圖也是我自己設計的貼圖。
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
                 <Accordion.Header>相處起來是怎樣的一個人?</Accordion.Header>
                 <Accordion.Body>
                     一開始會比較拘謹，但熟了就會笑得很奔放的一種人。<br />
-                    以過往的團體經驗，算是大眾型的，認份和諧，不是鶴立雞群，但也不會一直拉屎造成別人困擾，
+                    以過往的團體經驗，算是大眾型的，認份和諧，不是鶴立雞群，但也不會造成別人困擾，
                     遇到同學同事有需要幫忙的，也不會吝嗇伸出友善的小手。
                 </Accordion.Body>
             </Accordion.Item>
