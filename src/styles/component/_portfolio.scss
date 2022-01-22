@@ -4,9 +4,9 @@
     justify-content: flex-start;
     padding: $xl-size $l-size;
     background: rgba(255, 255, 255, 0.5);
-    margin: $l-size 0 $l-size 0;
+    margin: $m-size 0 $m-size 0;
     border-radius: $s-size;
-    box-shadow: 0 0 20px darken($gray,30%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     animation-duration: 2s;
     animation-name: slidein;
     transform:scale(1,1);
@@ -36,7 +36,7 @@
         border: 1px solid $gray;
         border-radius:$s-size ;
         max-width: 100%;
-        
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     @media(min-width:$desktop-breakpoint){
         img {
@@ -53,6 +53,7 @@
     top: 5px;
     right: 5px;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 };
 
 .portfolio-item__text {
@@ -98,4 +99,27 @@
     list-style-type:'-'+' ';
     color: lighten($dark-gray,10%);
     margin: $xs-size 0 $xs-size 0;
+};
+
+.readmore {
+    border: none;
+    border-radius: 50px;
+    background: white;
+    color: $shallow-green;
+    font-size: $m-font-size;
+    font-weight: 600;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+};
+
+.hideDetail {
+    margin-top: $s-size;
+    border: none;
+    border-radius: 50px;
+    background: white;
+    color: $shallow-green;
+    font-size: $m-font-size;
+    font-weight: 600;
+    padding: 5px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 };

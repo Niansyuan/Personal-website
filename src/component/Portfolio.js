@@ -1,7 +1,9 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import PortfolioItem from "./ProfolioItem";
+import PortfolioItem1 from "./PortfolioItems/ProfolioItem1";
+import PortfolioItem2 from "./PortfolioItems/ProfolioItem2";
+import PortfolioItem3 from "./PortfolioItems/ProfolioItem3";
 
 const Portfolio = () => (
     <div>
@@ -14,7 +16,9 @@ const Portfolio = () => (
             </div>
         </div>
         <div className="contain-container">
-            <PortfolioItem />
+            <PortfolioItem1 />
+            <PortfolioItem2 />
+            <PortfolioItem3 />
         </div>
         <Footer />
     </div>
