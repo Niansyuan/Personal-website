@@ -74,6 +74,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: $s-font-size;
     @media(min-width:$desktop-breakpoint){
         flex-direction: column;
         margin-bottom: $m-size;
@@ -81,6 +82,7 @@
 };
 
 .dashboard__directory__list--1 {
+    display: flex;
     background:#285185;
     opacity: .7;
     color: $white;
@@ -88,15 +90,17 @@
     border-radius: 50%;
     width:25vw;
     height: 25vw;
-    font-size: $l-font-size;
+    white-space:nowrap;
     text-align: center;
-    writing-mode: vertical-lr;
-    padding: $s-size 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: $l-font-size;
     margin: $m-size $s-size;
+    padding: 0 $s-size;
     transition: background-color .6s;
     @media(min-width:$desktop-breakpoint){
-        font-size: $xxl-font-size;
-        padding: $xl-size $s-size $s-size $s-size;
+        font-size: $xl-font-size;
+        padding: 0 $s-size;
         width:150px;
         height: 150px;
         writing-mode: horizontal-tb;
@@ -107,6 +111,7 @@
 };
 
 .dashboard__directory__list--2 {
+    display: flex;
     background: #d67940;
     opacity: .7;
     color: $white;
@@ -114,15 +119,17 @@
     border-radius: 50%;
     width:25vw;
     height: 25vw;
-    font-size: $l-font-size;
+    white-space:nowrap;
     text-align: center;
-    writing-mode: vertical-lr;
-    padding: $s-size 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: $l-font-size;
     margin: $m-size $s-size;
+    padding: 0 $s-size;
     transition: background-color .6s;
     @media(min-width:$desktop-breakpoint){
-        font-size: $xxl-font-size;
-        padding: $xl-size $s-size $s-size $s-size;
+        font-size: $xl-font-size;
+        padding: 0 $s-size;
         width:150px;
         height: 150px;
         writing-mode: horizontal-tb;
@@ -133,22 +140,25 @@
 };
 
 .dashboard__directory__list--3 {
+    display: flex;
     background: #c3a6a0;
-    opacity: .8;
+    opacity: .7;
     color: $white;
     border: 1px solid $gray;
     border-radius: 50%;
     width:25vw;
     height: 25vw;
-    font-size: $l-font-size;
+    white-space:nowrap;
     text-align: center;
-    writing-mode: vertical-lr;
-    padding: $s-size 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: $l-font-size;
     margin: $m-size $s-size;
+    padding: 0 $s-size;
     transition: background-color .6s;
     @media(min-width:$desktop-breakpoint){
-        font-size: $xxl-font-size;
-        padding: $xl-size $s-size $s-size $s-size;
+        font-size: $xl-font-size;
+        padding: 0 $s-size;
         width:150px;
         height: 150px;
         writing-mode: horizontal-tb;

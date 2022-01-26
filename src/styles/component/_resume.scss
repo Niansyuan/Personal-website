@@ -1,5 +1,6 @@
 .resume {
-    font-size: $xl-font-size;
+    font-size: $l-font-size;
+    font-weight: 600;
     background: rgba(255, 255, 255, 0.5);
     padding: $s-size;
     margin: $s-size 0 $s-size 0;
@@ -10,10 +11,16 @@
 };
 
 .resume__link {
-    padding: 0 $s-size;
-    border-bottom: 2px solid rgba(185, 168, 155, 0.795);
+    background: $white;
+    margin: $s-size $s-size;
+    padding: 10px 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
     &:hover {
-    background: rgba(185, 168, 155, 0.795);
+        transform:scale(1.01,1.1);
+    };
+    img {
+        margin-right: $s-size;
     };
 };
 

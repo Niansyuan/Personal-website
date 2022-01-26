@@ -21,17 +21,17 @@ const DashBoardPage = () => (
                 <div className='dashboard__directory'>
                     <Link to='/AboutMe' className='dashboard__directory__list--link'>
                         <div className='dashboard__directory__list--1'>
-                            關於我
+                            Q & A
                         </div>
                     </Link>
                     <Link to='/Portfolio' className='dashboard__directory__list--link'>
                         <div className='dashboard__directory__list--2'>
-                            作品集
+                            Portfolio
                         </div>
                     </Link>
                     <Link to='/Resume' className='dashboard__directory__list--link'>
                         <div className='dashboard__directory__list--3'>
-                            履歷
+                            Resume
                         </div>
                     </Link>
                 </div>

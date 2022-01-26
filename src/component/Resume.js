@@ -19,22 +19,34 @@ const Resume = () => (
                         href="https://www.cakeresume.com/mich8588"
                         target="_blank"
                     >
+                        <img src="./image/cakeResumeLogo.png" width={25} height={25} />
                         CakeResume
                     </a>
                 </div>
                 <div className="resume__link">
                     <a
-                        href="https://pda.104.com.tw/profile/share/1Y1rqDxYi6tfCQqxKn3rtoLe6hz6pNdl"
+                        href="https://pda.104.com.tw/profile/share/1YLKqnHeTcksvVTRMWZ15yFE6X6221AO"
                         target="_blank"
                     >
-                        104履歷
+                        <img src="./image/104logo.png" width={30} height={30} />
+                        104 Resume
+                    </a>
+                </div>
+                <div className="resume__link">
+                    <a
+                        href="https://resume.io/r/UBYH3gjuD"
+                        target="_blank"
+                    >
+                        <img src="./image/resumeioLogo.png" width={30} height={30} />
+                        Resume in English
                     </a>
                 </div>
             </div>
             <div className="resume-container">
-                <iframe
-                    src="https://drive.google.com/file/d/1nNf_gzQ8tMb4uS5RALt8etEHIQW5Dpmy/preview?usp=sharing/;Secure"
-                    title="My CakeResume Preview"
+                <img
+                    src="./image/Resume-English.jpg"
+                    title="My Resume Preview"
+                    width="100%"
                 />
             </div>
         </div>

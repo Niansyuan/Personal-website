@@ -69,6 +69,8 @@
 .header__dropdown-menu--list {
     float: none;
     color: $dark-gray;
+    width: auto;
+    white-space:nowrap;
     font-size: $l-font-size;
     padding: 12px 16px;
     text-decoration: none;
@@ -76,5 +78,6 @@
     text-align: left;
     &:hover {
         background: $gray;
+        color:$shallow-green;
     };
 };
